@@ -1,0 +1,21 @@
+.form-inscricao {
+  padding: 2rem 1rem;
+}
+
+.form-titulo {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ef7247;
+  font-size: 2.5rem;
+  padding-bottom: .5rem;
+}
+
+.form-submit {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  background-color: #48A3A6;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}

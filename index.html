@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraConf | Home</title>
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/sobre.css">
+  <link rel="stylesheet" href="./css/palestrantes.css">
+  <link rel="stylesheet" href="./css/form.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="main-menu">
+      <ul>
+        <li class="menu-item"><a href="#sobre">sobre</a></li>
+        <li class="menu-item"><a href="#painel-palestrantes">palestrantes</a></li>
+      </ul>
+    </nav>
+    <div class="jumbotron">
+      <section class="painel">
+        <h1 class="painel-titulo">aluraconf</h1>
+        <h2 class="painel-subtitulo">30maio|rio</h2>
+      </section>
+      <section>
+        <a class="botao" href="#form-inscricao">inscreva-se</a>
+      </section>
+    </div>
+  </header>
+
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <h2 class="sobre-titulo">Muito conteúdo: do frontend ao backend</h2>
+      <h3 class="sobre-subtitulo">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
+      <p class="sobre-texto">Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um
+        desenvolver mobile.
+      </p>
+      <p class="sobre-texto">
+        É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX,
+        além da parte backend com Rest, Microservices, e BigData. O desenvolvedor atualizado vai estar aqui.
+      </p>
+    </div>
+  </section>
+
+  <section class="painel-palestrantes" id="painel-palestrantes">
+    <div class="container">
+      <div class="sobre-palestrantes">
+        <h2 class="titulo">palestrantes</h2>
+        <h3 class="subtitulo">Aprenda com palestrantes que são referências na comunidade</h3>
+      </div>
+      <ul class="palestrantes">
+        <li class="palestrante">
+          <figure class="perfil">
+            <img class="imagem" src="img/palestrantes/placeholder.jpeg" alt="">
+            <figcaption class="nome">Gustavo Cerqueira</figcaption>
+            <p class="bio">Engenheiro Civil e aspirante a desenvolvedor</p>
+          </figure>
+          <p class="descricao">No pain, no gain</p>
+        </li>
+        <li class="palestrante">
+          <figure class="perfil">
+            <img class="imagem" src="img/palestrantes/placeholder.jpeg" alt="">
+            <figcaption class="nome">Gustavo Cerqueira</figcaption>
+            <p class="bio">Engenheiro Civil e aspirante a desenvolvedor</p>
+          </figure>
+          <p class="descricao">No pain, no gain</p>
+        </li>
+        <li class="palestrante">
+          <figure class="perfil">
+            <img class="imagem" src="img/palestrantes/placeholder.jpeg" alt="">
+            <figcaption class="nome">Gustavo Cerqueira</figcaption>
+            <p class="bio">Engenheiro Civil e aspirante a desenvolvedor</p>
+          </figure>
+          <p class="descricao">No pain, no gain</p>
+        </li>
+        <li class="palestrante">
+          <figure class="perfil">
+            <img class="imagem" src="img/palestrantes/placeholder.jpeg" alt="">
+            <figcaption class="nome">Gustavo Cerqueira</figcaption>
+            <p class="bio">Engenheiro Civil e aspirante a desenvolvedor</p>
+          </figure>
+          <p class="descricao">No pain, no gain</p>
+        </li>
+        <li class="palestrante">
+          <figure class="perfil">
+            <img class="imagem" src="img/palestrantes/placeholder.jpeg" alt="">
+            <figcaption class="nome">Gustavo Cerqueira</figcaption>
+            <p class="bio">Engenheiro Civil e aspirante a desenvolvedor</p>
+          </figure>
+          <p class="descricao">No pain, no gain</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="form-inscricao" id="form-inscricao">
+      <h2 class="form-titulo">seus dados</h2>
+      <form class="form" action="">
+        <div class="form-inputs">
+          <label class="input-titulo" for="">Nome</label>
+          <input class="input" type="text" placeholder="Digite seu nome">
+        </div>
+        <div class="form-inputs">
+          <label class="input-titulo" for="">Email</label>
+          <input class="input" type="email" placeholder="Digite seu e-mail">
+        </div>
+        <button class="botao">realizar inscrição</button>
+      </form>
+  </section>
+
+<script src="js/jquery.js"></script>
+<script src="js/index.js"></script>
+</body>
+
+</html>
